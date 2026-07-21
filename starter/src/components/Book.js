@@ -21,7 +21,7 @@ function Book({ book, onShelfChange }) {
             value={shelf}
             onChange={(e) => onShelfChange(book, e.target.value)}
           >
-            <option value="none" disabled>
+            <option value="moveto" disabled>
               Move to...
             </option>
             <option value="currentlyReading">Currently Reading</option>
